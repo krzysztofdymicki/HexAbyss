@@ -1,4 +1,14 @@
 import React from 'react'
 
-const App = () => <p>dupa</p>
+import DishForm from './components/DishForm'
+
+const App = () => {
+
+  return (
+    <>
+      <DishForm />
+    </>
+  )
+}
+
 export default App

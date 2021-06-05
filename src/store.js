@@ -5,6 +5,6 @@ const mainReducer = combineReducers({
   disgForm: formReducer
 })
 
-const store = createStore(rootReducer)
+const store = createStore(mainReducer)
 
 export default store
