@@ -4,7 +4,8 @@
   "description": "An ocean-deep hope for being employed.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/krzysztofdymicki/HexAbyss/issues"
   },
-  "homepage": "https://github.com/krzysztofdymicki/HexAbyss#readme"
+  "homepage": "https://github.com/krzysztofdymicki/HexAbyss#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2"
+  }
 }
