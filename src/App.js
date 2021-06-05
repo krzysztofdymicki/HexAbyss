@@ -1,4 +1,4 @@
 import React from 'react'
 
-const App = () => <p>test</p>
+const App = () => <p>dupa</p>
 export default App

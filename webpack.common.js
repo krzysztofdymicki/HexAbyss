@@ -1,7 +1,7 @@
 const path = require('path')
 
 const config = {
-  entry: ['@babel/polyfill' , path.resolve(__dirname, 'src/index.js')],
+  entry: [path.resolve(__dirname, 'src/index.js')],
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'main.js' 
