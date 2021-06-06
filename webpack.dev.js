@@ -4,6 +4,7 @@ const path = require('path')
 
 module.exports = merge(common, {
   mode: 'development',
+  //entry: ['@babel/polyfill'],
   devtool: 'inline-source-map',
   devServer: {
     contentBase: path.resolve(__dirname, 'build'),
